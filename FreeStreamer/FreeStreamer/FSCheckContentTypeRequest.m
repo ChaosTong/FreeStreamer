@@ -208,6 +208,8 @@ didCompleteWithError:(nullable NSError *)error {
         _format = kFSFileFormatMP3;
     } else if ([absoluteUrl hasSuffix:@".mp4"]) {
         _format = kFSFileFormatMPEG4;
+    } else if ([absoluteUrl hasSuffix:@".m4a"]) {
+        _format = kFSFileFormatM4A;
     } else if ([absoluteUrl hasSuffix:@".m3u"]) {
         _format = kFSFileFormatM3UPlaylist;
         _playlist = YES;
