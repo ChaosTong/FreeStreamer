@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-	s.name                  = 'FreeStreamerM'
+	s.name                  = 'FreeStreamer'
 	s.version               = '4.0.0'
 	s.license               = 'BSD'
 	s.summary               = 'A low-memory footprint streaming audio client for iOS'
